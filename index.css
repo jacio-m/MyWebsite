@@ -1,8 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #31051E;
+    padding: 20px;
+    position: relative;
+}
+
 body {
+    min-height: 100vh;
     background-color: #130208;
     font-family: "Pixelify Sans", sans-serif;
-    color: #D53C6A
-}
-h1 {
     color: #D53C6A;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #31051E;
+    padding: 5px;
+    position: relative;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    position: relative;
 }
